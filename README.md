@@ -1,10 +1,11 @@
-# grunt-durandal [![NPM version](https://badge.fury.io/js/grunt-durandal.png)](http://badge.fury.io/js/grunt-durandal)
 
 Grunt task to build Durandal projects using a custom require config with a custom almond
 
+This is a fork of **grunt-durandal**
+
 ## Getting Started
 
-Install this grunt plugin next to your project's gruntfile with: `npm install grunt-durandal --save-dev`
+Install this grunt plugin next to your project's gruntfile with: `npm install grunt-durandal-build --save-dev`
 
 Then add this line to your project's `Gruntfile.js` :
 
@@ -12,7 +13,7 @@ Then add this line to your project's `Gruntfile.js` :
 grunt.loadNpmTasks("grunt-durandal");
 ```
 
-Then specify your config: ([more informations][doc-options])
+Then specify your config:
 
 ```javascript
 grunt.initConfig({
@@ -40,6 +41,9 @@ grunt.initConfig({
 });
 ```
 
+To stop a require statement being added to the end of the file, pass in
+the **insertRequire: false** option.
+
 Using the configuration above, consider the following app structure :
 
 * App
@@ -66,6 +70,8 @@ This file contains a custom almond, and all your modules inlined (views included
 * 0.1.1 Fix issue with path separator on Windows
 * 0.1.2 Fix naming path issue by renaming path for forced includes
 * 0.1.3 Append a includeMain options which allow to disable automatic main include
+* 2.0.0 Add Grunt 1.x compatibility
+* 2.1.0 Fix logic for insertRequire option
 
 [grunt]: https://github.com/gruntjs/grunt
-[doc-options]: https://github.com/spatools/grunt-durandal/wiki/Task-Options
+[doc-options]: https://github.com/dfrencham/grunt-durandal-build/wiki/Task-Options

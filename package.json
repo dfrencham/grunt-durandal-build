@@ -1,8 +1,8 @@
 {
   "name": "grunt-durandal",
   "description": "Grunt Durandal Builder - Build durandal project using a custom require config and a custom almond",
-  "version": "0.2.0",
-  "homepage": "https://github.com/spatools/grunt-durandal.git",
+  "version": "0.2.1",
+  "homepage": "https://github.com/dfrencham/grunt-durandal-build.git",
   "license": "MIT",
   "author": {
     "name": "SPA Tools",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/spatools/grunt-durandal.git"
+    "url": "git://github.com/dfrencham/grunt-durandal-build.git"
   },
   "bugs": {
-    "url": "https://github.com/spatools/grunt-durandal/issues"
+    "url": "https://github.com/dfrencham/grunt-durandal-build/issues"
   },
   "scripts": {
     "test": "grunt"
