@@ -1,5 +1,5 @@
 {
-  "name": "grunt-durandal",
+  "name": "grunt-durandal-build",
   "description": "Grunt Durandal Builder - Build durandal project using a custom require config and a custom almond",
   "version": "0.2.1",
   "homepage": "https://github.com/dfrencham/grunt-durandal-build.git",

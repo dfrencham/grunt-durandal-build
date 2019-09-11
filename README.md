@@ -70,8 +70,9 @@ This file contains a custom almond, and all your modules inlined (views included
 * 0.1.1 Fix issue with path separator on Windows
 * 0.1.2 Fix naming path issue by renaming path for forced includes
 * 0.1.3 Append a includeMain options which allow to disable automatic main include
-* 2.0.0 Add Grunt 1.x compatibility
-* 2.1.0 Fix logic for insertRequire option
+* 0.2.0 Add Grunt 1.x compatibility
+* 0.2.1 Fix logic for insertRequire option
+* 0.2.2 Fix version
 
 [grunt]: https://github.com/gruntjs/grunt
 [doc-options]: https://github.com/dfrencham/grunt-durandal-build/wiki/Task-Options
